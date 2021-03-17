@@ -1,0 +1,21 @@
+.dashboard-stats {
+    
+
+    &__grid {
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid $color7;
+    }
+
+    &__item {
+        border: 1px solid $color7;
+        padding: 1rem;
+        width: 100%;
+        text-align: center;
+
+        i {
+            font-size: 3rem;
+        }
+    }
+}

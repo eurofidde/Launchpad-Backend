@@ -1,0 +1,35 @@
+.auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    h1 {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    &__inner {
+        width: 20%;
+    }
+
+    // &__remember {
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    // }
+
+    .btn-primary {
+        width: 100%;
+    }
+}
+
+/*
+    Login
+*/
+
+.auth-login {
+    &__remember {
+        text-align: center;
+    }
+}

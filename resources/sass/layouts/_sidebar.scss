@@ -1,0 +1,35 @@
+.sidebar-wrap {
+    min-height: 94vh;
+    display: flex;
+
+    .sidebar {
+        background-color: $color4;
+        height: 94vh;
+        padding: 1.5rem;
+        width: 250px;
+        box-sizing: border-box;
+        border-right: 1px solid darkgray;
+
+        a {
+            color: $color5;
+            display: block;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+
+            i {
+                margin-right: 1rem;
+                font-size: 1.5rem;
+            }
+
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+
+    &__content {
+        padding: 1rem;
+        width: 100%;
+    }
+}

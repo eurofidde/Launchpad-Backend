@@ -1,0 +1,14 @@
+@import '_vars.scss';
+
+@import 'base/_prefixs.scss';
+@import 'base/_buttons.scss';
+
+@import 'layouts/_header.scss';
+@import 'layouts/_sidebar.scss';
+@import 'layouts/_auth.scss';
+
+@import 'components/_dropdown.scss';
+@import 'components/_popup-box.scss';
+@import 'components/_page-heads.scss';
+
+@import 'pages/_dashboard.scss';
