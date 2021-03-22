@@ -43,6 +43,10 @@
                 <i class="fas fa-box"></i>
                 <span>Branches</span>
             </a>
+            <a href="{{ url('/uploads') }}">
+                <i class="fas fa-cloud-upload-alt"></i>
+                <span>Uploads</span>
+            </a>
         </aside>
         <main class="sidebar-wrap__content">
             @yield('content')

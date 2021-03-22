@@ -213,7 +213,7 @@ section {
   align-items: center;
 }
 .popup-box__inner {
-  width: 35%;
+  width: 600px;
   text-align: center;
   background-color: white;
   border-radius: 10px;

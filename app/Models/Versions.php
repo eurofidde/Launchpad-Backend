@@ -13,10 +13,10 @@ class Versions extends Model
     protected $table = 'versions';
 
     // Fields we can write to.
-    protected $fillable = ['name', 'download_url'];
+    protected $fillable = ['name', 'download_url', 'branch_id'];
 
     // Set the relationships
     public function branches() {
-        return $this->belongsTo(Branches::class);
+        return $this->belongsTo(Branches::class, 'branch_id');
     }
 }

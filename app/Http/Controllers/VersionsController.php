@@ -21,8 +21,10 @@ class VersionsController extends Controller
      */
     public function index()
     {
+        // $versions =  Branches::with('Verisons')->where('id')->get();
         $versions = Versions::all();
-        // return $versions;
+
+        // return $branches;
         return view('versions', compact('versions'));
     }
 
@@ -35,7 +37,6 @@ class VersionsController extends Controller
     {
         $validatedData = $request->validate([
             'name' => ['required'],
-            'branch' => ['required']
         ]);
 
         $version = Versions::create($request->all());

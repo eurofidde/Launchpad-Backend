@@ -17,7 +17,7 @@
         <tr>
             <th class="id">ID</th>
             <th>Name</th>
-            <th>Branch</th>
+            <th>Branch ID</th>
             <th>Creation Date</th>
             <th>Last Updated</th>
             <th></th>
@@ -26,7 +26,7 @@
             <tr>
                 <td class="id">{{ $version->id }}</td>
                 <td>{{ $version->name }}</td>
-                <td>{{ $version->branch->name }}</td>
+                <td>{{ $version->branch_id }}</td>
                 <td>{{ $version->created_at }}</td>
                 <td>{{ $version->updated_at }}</td>
                 <td class="action">
